@@ -1,0 +1,11 @@
+body
+{
+  background-color: purple;
+  align-self: center;
+}
+
+#my_form
+{
+  text-align: center;
+  margin-top: 10%;
+}

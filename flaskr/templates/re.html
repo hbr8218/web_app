@@ -3,10 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/re.css')}}">
   </head>
   <body>
-   <input type="button" value="HOME" onclick="location.href='{{url_for('home')}}'"/>
+   <input type="button" value="HOME" id="button" onclick="location.href='{{url_for('home')}}'"/>
    <br />
    <p>{{result}}</p>
+   <img src="{{b_image}}" alt="{{result}}" width="50%" height="80%" >
   </body>
 </html>
