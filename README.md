@@ -14,6 +14,6 @@ Requirements:-<br />
 Python installed(3.6 >=) <br />
 Flask installed <br />
 then <br />
-run __init__.py file b using the command  <br />    (python __init__.py)
+run \__init\__.py file b using the command  <br />    python \__init\__.py
 
 
