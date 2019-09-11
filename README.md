@@ -10,10 +10,10 @@ This is a simple web application where a user can set different measurements of 
 <b> NOTE:</b> Upcoming Project will be based on <span text-type='bold'>Time series</span>
 
 #### How to use the project on the machine
-Requirements:-
-Python installed(3.6 >=)
-Flask installed
-then
-run __init__.py file b using the command      python __init__.py
+Requirements:-<br />
+Python installed(3.6 >=) <br />
+Flask installed <br />
+then <br />
+run __init__.py file b using the command  <br />    (python __init__.py)
 
 
