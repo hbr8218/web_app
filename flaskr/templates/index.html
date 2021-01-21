@@ -24,19 +24,19 @@
     <form class="iris_form" id="my_form" action="http://localhost:5000/result" method="POST">
       <span>sepal length:</span>
       <input type="range" min="4.3" max="7.9" value="5.84" step="0.1" id="sl" name="a" onchange="sepalLength()" />
-      value:<input id=slv type="text"> </input>
+      value:<input id=slv type="text" value="5.84"> </input>
       <br/>
       <span>sepal width:</span>
       <input type="range" min="2.0" max="4.4" value="3.05" step="0.1" id="sw" name="b" onchange="sepalWidth()" />
-      value:<input id=swv type="text"> </input>
+      value:<input id=swv type="text" value="3.05"> </input>
       <br/>
       <span>petal length:</span>
       <input type="range" min="1.0" max="6.9" value="3.7" step="0.1"  id="pl" name="c" onchange="petalLength()" />
-      value:<input id=plv type="text"> </input>
+      value:<input id=plv type="text" value="3.7"> </input>
       <br/>
       <span>sepal length:</span>
       <input type="range" min="0.1" max="2.5" value="1.20" step="0.1" id="pw" name="d" onchange="petalWidth()" />
-      value:<input id=pwv type="text"> </input>
+      value:<input id=pwv type="text" value="1.20"> </input>
       <br/>
       <input type="submit" value="Predict" />
     </form>
